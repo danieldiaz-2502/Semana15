@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+      <h3>Login</h3>
+      <p><input id = "correo" type= "text" placeholder="Correo"></p>
+      <p><input id = "contrasena"type= "password" placeholder="Contraseña"></p>
+      <p><button id = "loginBtn">Login</button></p>
+    </body>
+
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyCAJwZOahVQ1f9-0vbzGzCvLIfL3Qfi45Y",
+    authDomain: "semana-15-f73cd.firebaseapp.com",
+    projectId: "semana-15-f73cd",
+    storageBucket: "semana-15-f73cd.appspot.com",
+    messagingSenderId: "495192476881",
+    appId: "1:495192476881:web:0b58ef4453bc4c29f189f0",
+    measurementId: "G-VLYC1P7HE5"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/login.js"></script>
